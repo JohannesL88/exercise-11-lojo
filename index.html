@@ -37,7 +37,10 @@
 
     <script>
         function naytaVastaukset() {
-            // Lisätään toisessa versiossa
+            const vastaukset = document.querySelectorAll('.answer');
+            vastaukset.forEach(vastaus => {
+                vastaus.style.display = 'block';
+            });
         }
     </script>
 
